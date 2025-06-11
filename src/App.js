@@ -401,7 +401,7 @@ const LoginScreen = ({ setIsLoggedIn, setCoupleNames, setMessage }) => {
 
     // Mock Users for demonstration purposes
     const mockUsers = {
-        "edubia": { password: "Banana123@", partner1: "A Rainha do mimimei", partner2: "Chefe da Fatura Surpresa" },
+        "usuario": { password: "Banana123@", partner1: "A Rainha do mimimei", partner2: "Chefe da Fatura Surpresa" },
         "test": { password: "test", partner1: "Humano 1", partner2: "Humano 2" }
     };
 
