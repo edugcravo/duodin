@@ -384,13 +384,14 @@ const App = () => {
                     />
                     {/* Main Application Content */}
                     <MainAppContent />
+                    <FooterComponent />
                 </>
             ) : (
                 // Login screen if not logged in
                 <LoginScreen setIsLoggedIn={setIsLoggedIn} setCoupleNames={setCoupleNames} setMessage={setMessage} />
             )}
 
-<FooterComponent />
+
         </div>
     );
 };
