@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/duodin/static/css/main.3730e242.css",
+    "main.js": "/duodin/static/js/main.a0385c63.js",
+    "static/js/453.526eca8e.chunk.js": "/duodin/static/js/453.526eca8e.chunk.js",
+    "index.html": "/duodin/index.html",
+    "main.3730e242.css.map": "/duodin/static/css/main.3730e242.css.map",
+    "main.a0385c63.js.map": "/duodin/static/js/main.a0385c63.js.map",
+    "453.526eca8e.chunk.js.map": "/duodin/static/js/453.526eca8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3730e242.css",
+    "static/js/main.a0385c63.js"
+  ]
+}
