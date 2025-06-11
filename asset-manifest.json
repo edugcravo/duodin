@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/duodin/static/css/main.3730e242.css",
-    "main.js": "/duodin/static/js/main.6358805e.js",
+    "main.js": "/duodin/static/js/main.1119900a.js",
     "static/js/453.526eca8e.chunk.js": "/duodin/static/js/453.526eca8e.chunk.js",
     "index.html": "/duodin/index.html",
     "main.3730e242.css.map": "/duodin/static/css/main.3730e242.css.map",
-    "main.6358805e.js.map": "/duodin/static/js/main.6358805e.js.map",
+    "main.1119900a.js.map": "/duodin/static/js/main.1119900a.js.map",
     "453.526eca8e.chunk.js.map": "/duodin/static/js/453.526eca8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3730e242.css",
-    "static/js/main.6358805e.js"
+    "static/js/main.1119900a.js"
   ]
 }
