@@ -1468,10 +1468,10 @@ const GoalItem = ({ goal, onEdit, onDelete, onContribute, currentBalance, setMes
                     placeholder="0,00"
                 />
                 <button
-                    type="submit"
-                    className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 disabled:opacity-50 disabled:cursor-not-allowed"
-                    // Disable if amount is invalid, exceeds current balance, or goal is completed
-                    disabled={parseFloat(rawContributionAmount) <= 0 || parseFloat(rawContributionAmount)/100 > currentBalance || progress >= 100}
+                  type="submit"
+                  disabled={ parseFloat(rawContributionAmount) <= 0 || progress >= 100 }
+                  className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 disabled:opacity-50 disabled:cursor-not-allowed"
+
                 >
                     Contribuir
                 </button>
