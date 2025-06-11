@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import Calendar from './calendar/CalendarComponent';
+import FooterComponent from './footer/FooterComponent';
+
 
 // Utility function to get saved data from localStorage
 const getSavedData = () => {
@@ -343,7 +345,7 @@ const App = () => {
     }
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-gray-900 to-indigo-900 text-white flex">
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 to-indigo-900 text-white flex flex-col">
             {/* Meta viewport for responsive behavior */}
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -387,6 +389,8 @@ const App = () => {
                 // Login screen if not logged in
                 <LoginScreen setIsLoggedIn={setIsLoggedIn} setCoupleNames={setCoupleNames} setMessage={setMessage} />
             )}
+
+<FooterComponent />
         </div>
     );
 };
